@@ -1,3 +1,8 @@
+/*
+ * This program is used to show different intensity level by glowing different number of lights. 
+ * Author: Anuj Jain
+ * @ianuj03
+ */
 const int kLED[10]={2,3,4,5,6,7,8,9,10,11};
 const int kLDR=A3;
 void setup()
