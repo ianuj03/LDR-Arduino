@@ -1,3 +1,8 @@
+/*
+ * This is a prototype for the smart light system, where as per the requirement the state of the light is to be changed.
+ * Author: Anuj Jain
+ * @ianuj03
+ */
 const int kled=9;
 const int kldr=A3;
 int i;
