@@ -3,12 +3,12 @@
  * Author: Anuj Jain
  * @ianuj03
  */
-const int kLED[10]={2,3,4,5,6,7,8,9,10,11};
-const int kLDR=A3;
+const int kLED[10]={2,3,4,5,6,7,8,9,10,11};//Array for LEDs
+const int kLDR=A3;//For LDR's reading
 void setup()
 {
   for(int i=0;i<10;i++)
-    pinMode(kLED[i],OUTPUT);
+    pinMode(kLED[i],OUTPUT);//setting up each LED on output mode
   pinMode(kLDR,INPUT);
 }
 void loop()
