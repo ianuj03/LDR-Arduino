@@ -4,7 +4,7 @@
  * @ianuj03
  */
 #include<LiquidCrystal.h>
-LiquidCrystal lcd(2,3,4,5,6,7);
+LiquidCrystal lcd(2,3,4,5,6,7);//rs,en,d4,d5,d6,d7
 const int LDR=A0;
 //const int led=8;
 float ldr_value,total_value,lux;
