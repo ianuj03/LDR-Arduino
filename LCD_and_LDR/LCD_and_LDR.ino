@@ -1,3 +1,8 @@
+/*
+ * This program is used to read the value from LDR and put it on the LCD display.
+ * Author: Anuj Jain
+ * @ianuj03
+ */
 #include<LiquidCrystal.h>
 LiquidCrystal lcd(2,3,4,5,6,7);
 const int LDR=A0;
