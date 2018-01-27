@@ -13,8 +13,11 @@ void loop(){
   ldr_value=analogRead(LDR);
   total_value=ldr_value*0.0048828125;
   lux=(2500/total_value-500)/10;
-  Serial.print("\nIntensity is ");
-  Serial.print(lux);
-  Serial.println(" lumens");
-  delay(500);
+  if(temp!=lux){
+    Serial.print("\nIntensity is ");
+    Serial.print(lux);
+    Serial.println(" lumens");
+    temp=lux;
+    delay(500);
+  }
 }
