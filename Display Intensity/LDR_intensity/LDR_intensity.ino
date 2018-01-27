@@ -1,5 +1,10 @@
+/*
+ * This program is used to find the intensity of Light in surrounding and print it on the Serial Monitor 
+ * Author: Anuj Jain
+ * @ianuj03
+ */
 const int LDR=A0;
-float ldr_value,total_value,lux;
+float ldr_value,total_value,lux,temp=0;
 void setup(){
   pinMode(LDR,INPUT);
   Serial.begin(9600);
