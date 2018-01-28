@@ -5,7 +5,7 @@ Name | Quantity
 -----|---------
 LED | 10
 Breadboard | 1
-Resistors (270 ohm) | 10
+Resistors (270 ohm) | 11
 Jumper wire | 12 M2M
 LDR | 1
 Arduino Board* | 1
