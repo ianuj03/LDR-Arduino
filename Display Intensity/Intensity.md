@@ -15,6 +15,7 @@
  Breadboard | 1
  Jumper Wire | 3 + 11
  Arduino Board* | 1
+ Resistor 10k Ohm | 1 (if LCD used)
 
  
  *Any Arduino Board will work
@@ -29,7 +30,7 @@
  ```
  VSS- Connect it to the ground;
 VDD/Vcc- Connect it to the 5V from the board;
-VO/VEE- Used to vary the contrast using a potentiometer, Connect it to the centre of the potentiometer and the other two as Vcc and GND;
+VO/VEE- Used to vary the contrast using a potentiometer, Connect it to the centre of the potentiometer and the other two as Vcc and GND; or connect to a 10k Ohm resistor.
 R/W- Connect it to the Ground;
 RS- Connect it to any digital PIN;
 E- Connect it to any digital PIN;
